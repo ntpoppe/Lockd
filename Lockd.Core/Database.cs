@@ -24,7 +24,12 @@ public class Database
 		using var connection = new SqliteConnection($"Data Source={_dbPath}");
 		connection.Open();
 
-		string createTable = @"
+		string createMasterTable = @"
+			CREATE TABLE IF NOT EXISTS master (
+					masterp TEXT PRIMARY KEY;
+			)";
+
+		string createStorageTable = @"
 			CREATE TABLE IF NOT EXISTS passwords (
 					id INTEGER PRIMARY KEY AUTOINCREMENT,
 					service TEXT NOT NULL,
@@ -32,8 +37,23 @@ public class Database
 					password TEXT NOT NULL
 			)";
 
-		using var command = new SqliteCommand(createTable, connection);
-		command.ExecuteNonQuery();
+		using var masterCommand = new SqliteCommand(createMasterTable, connection);
+		masterCommand.ExecuteNonQuery();
+
+		using var storageCommand = new SqliteCommand(createStorageTable, connection);
+		storageCommand.ExecuteNonQuery();
+	}
+
+	public bool CheckIfMasterPasswordExists()
+	{
+		using var connection = new SqliteConnection($"Data Source={_dbPath}");
+		connection.Open();
+
+		string masterQuery = "SELECT COUNT(*) FROM master";
+		using var command = new SqliteCommand(masterQuery, connection);
+		var result = command.ExecuteScalar();
+
+		return Convert.ToInt32(result) > 0;
 	}
 
 	public void AddPassword(string service, string username, string password)
