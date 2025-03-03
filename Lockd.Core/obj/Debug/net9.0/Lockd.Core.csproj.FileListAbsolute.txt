@@ -1,0 +1,12 @@
+/home/n/repos/Lockd/Lockd.Core/bin/Debug/net9.0/Lockd.Core.deps.json
+/home/n/repos/Lockd/Lockd.Core/bin/Debug/net9.0/Lockd.Core.dll
+/home/n/repos/Lockd/Lockd.Core/bin/Debug/net9.0/Lockd.Core.pdb
+/home/n/repos/Lockd/Lockd.Core/obj/Debug/net9.0/Lockd.Core.csproj.AssemblyReference.cache
+/home/n/repos/Lockd/Lockd.Core/obj/Debug/net9.0/Lockd.Core.GeneratedMSBuildEditorConfig.editorconfig
+/home/n/repos/Lockd/Lockd.Core/obj/Debug/net9.0/Lockd.Core.AssemblyInfoInputs.cache
+/home/n/repos/Lockd/Lockd.Core/obj/Debug/net9.0/Lockd.Core.AssemblyInfo.cs
+/home/n/repos/Lockd/Lockd.Core/obj/Debug/net9.0/Lockd.Core.csproj.CoreCompileInputs.cache
+/home/n/repos/Lockd/Lockd.Core/obj/Debug/net9.0/Lockd.Core.dll
+/home/n/repos/Lockd/Lockd.Core/obj/Debug/net9.0/refint/Lockd.Core.dll
+/home/n/repos/Lockd/Lockd.Core/obj/Debug/net9.0/Lockd.Core.pdb
+/home/n/repos/Lockd/Lockd.Core/obj/Debug/net9.0/ref/Lockd.Core.dll

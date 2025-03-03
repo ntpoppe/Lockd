@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lockd.CLI", "Lockd.CLI\Lockd.CLI.csproj", "{01278301-D159-41AA-A7F7-418DCF438AA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lockd.Core", "Lockd.Core\Lockd.Core.csproj", "{1073E929-1FA8-437A-8F63-2728B27AE2EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01278301-D159-41AA-A7F7-418DCF438AA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01278301-D159-41AA-A7F7-418DCF438AA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01278301-D159-41AA-A7F7-418DCF438AA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01278301-D159-41AA-A7F7-418DCF438AA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1073E929-1FA8-437A-8F63-2728B27AE2EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1073E929-1FA8-437A-8F63-2728B27AE2EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1073E929-1FA8-437A-8F63-2728B27AE2EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1073E929-1FA8-437A-8F63-2728B27AE2EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
